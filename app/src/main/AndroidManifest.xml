@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat">
-        <activity android:name=".CzwartaAktywosc"></activity>
+        <activity android:name=".PiataAktywnosc"></activity>
+        <activity android:name=".CzwartaAktywosc" />
         <activity android:name=".TrzeciaAktywnosc" />
         <activity
             android:name=".DrugaAktywnosc"

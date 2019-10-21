@@ -25,5 +25,9 @@ class MainActivity : AppCompatActivity() {
         textView.setOnClickListener() {
             startActivity(Intent(this, TrzeciaAktywnosc::class.java))
         }
+
+        textView.setOnLongClickListener(){
+            startActivity(Intent(this, PiataAktywnosc::class.java))
+            true}
     }
 }

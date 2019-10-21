@@ -11,8 +11,8 @@ class CzwartaAktywosc : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_czwarta_aktywosc)
 
-        setTitle("Czwarta aktywność")
+        setTitle("pinch2zoom")
 
-        this.myZoomageView
+        //this.myZoomageView
     }
 }

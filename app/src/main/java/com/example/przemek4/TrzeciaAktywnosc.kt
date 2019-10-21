@@ -20,13 +20,6 @@ class TrzeciaAktywnosc : AppCompatActivity() {
 
         setTitle("Mój Nunuś")
 
-        //ScaleGestureDetector.OnScaleGestureListener mScaleGestureDetector =  new ScaleGestureDetector.OnScaleGestureListener()
-
-        //zdjecie.setOnClickListener(){
-        //    intent= Intent(this, MainActivity::class.java)
-         //   startActivity(intent)
-        //}
-
        zdjecie.setOnClickListener { startActivity(Intent(this, CzwartaAktywosc::class.java))
        }
 
