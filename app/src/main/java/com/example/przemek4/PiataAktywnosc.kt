@@ -10,16 +10,16 @@ class PiataAktywnosc : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_piata_aktywnosc)
 
+        setTitle("piata aktywnosc")
+
         var tablica = "to jest nowy string"
 
-        var tablica2 = {for (x in tablica){
-            print(x)} }
+        var tablica2: String = ""
 
-        textView3.setText(tablica2.toString())
-
-        fun zamianaString(array1: CharArray, array2: CharArray){
-            array2[0] = array1[array1.length - 1]
-            return array2
+        for (x in tablica.length-1 downTo 0) {
+            tablica2 += tablica[x]
         }
+        textView3.setText(tablica)
+        textView4.setText(tablica2)
     }
 }
