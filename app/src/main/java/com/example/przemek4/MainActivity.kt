@@ -18,6 +18,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, DrugaAktywnosc::class.java))
         }
 
+        button2.setOnClickListener() {
+            startActivity(Intent(this, PiataAktywnosc::class.java))
+        }
+
         button.setOnLongClickListener(){
             startActivity(Intent(this, CzwartaAktywosc::class.java))
             true}

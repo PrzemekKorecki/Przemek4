@@ -10,16 +10,12 @@ class PiataAktywnosc : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_piata_aktywnosc)
 
-        setTitle("piata aktywnosc")
+        setTitle("Piąta Aktywność")
 
-        var tablica = "to jest nowy string"
-
-        var tablica2: String = ""
-
-        for (x in tablica.length-1 downTo 0) {
-            tablica2 += tablica[x]
+        button3.setOnClickListener(){
+            var napis = editText.text.toString()
+            var sr = StringReverser()
+            textView4.setText(sr.stringReverser(napis))
         }
-        textView3.setText(tablica)
-        textView4.setText(tablica2)
     }
 }
