@@ -26,12 +26,17 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, CzwartaAktywosc::class.java))
             true}
 
-        textView.setOnClickListener() {
+        button4.setOnClickListener() {
+            startActivity(Intent(this, SzostaAktywnosc::class.java))
+        }
+
+            textView.setOnClickListener() {
             startActivity(Intent(this, TrzeciaAktywnosc::class.java))
         }
 
         textView.setOnLongClickListener(){
             startActivity(Intent(this, PiataAktywnosc::class.java))
             true}
+
     }
 }

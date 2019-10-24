@@ -32,11 +32,20 @@
         android:textSize="90px"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="szósta aktywność"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="90px"/>
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="400dp"
         android:text="Hello World!"
         android:textColor="@color/customblue"
         android:textSize="90px"
