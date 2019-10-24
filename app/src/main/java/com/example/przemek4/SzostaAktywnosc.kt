@@ -11,9 +11,11 @@ class SzostaAktywnosc : AppCompatActivity() {
         setContentView(R.layout.activity_szosta_aktywnosc)
 
         button5.setOnClickListener(){
+            var x1 = ""
+            x1 = editText2.text.toString()
             var z = ""
-                for (x in 0..10){
-                z += x.toString()
+                for (x in 0..x1.toInt()){
+                z += x.toString()+" "
                 }
             textView5.text = z
         }
