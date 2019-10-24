@@ -59,11 +59,11 @@ class MainActivity : AppCompatActivity() {
             R.id.menuItem4 -> startActivity(Intent(this, CzwartaAktywosc::class.java))
             R.id.menuItem5 -> startActivity(Intent(this, PiataAktywnosc::class.java))
             R.id.menuItem6 -> startActivity(Intent(this, SzostaAktywnosc::class.java))
-            R.id.menuItem7 -> selectedOption = "7 jeszcze nie oprogramowana opcja wyboru"
-            R.id.menuItem8 -> selectedOption = "8 jeszcze nie oprogramowana opcja wyboru"
-            R.id.menuItem9 -> selectedOption = "9 jeszcze nie oprogramowana opcja wyboru"
-            R.id.menuItem10 -> selectedOption = "10 jeszcze nie oprogramowana opcja wyboru"
-            R.id.menuItem11 -> selectedOption = "11 jeszcze nie oprogramowana opcja wyboru"
+            R.id.menuItem7 -> selectedOption = "7 jeszcze nie oprogramowana"
+            R.id.menuItem8 -> selectedOption = "8 jeszcze nie oprogramowana"
+            R.id.menuItem9 -> selectedOption = "9 jeszcze nie oprogramowana"
+            R.id.menuItem10 -> selectedOption = "10 jeszcze nie oprogramowana"
+            R.id.menuItem11 -> selectedOption = "11 jeszcze nie oprogramowana"
 
         }
         Toast.makeText(this, "Opcja "+ selectedOption, Toast.LENGTH_LONG ).show()
